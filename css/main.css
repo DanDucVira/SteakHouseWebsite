@@ -8,6 +8,8 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 /*Navigation Styles*/
@@ -19,27 +21,37 @@ header {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    width: 100%;
 
 }
 
 header nav {
+    display: flex;
     position: fixed;
     top: 0;
+    background-color: #333;
+    color: #fff;
+    justify-content: space-between;
     width: 100%;
+    padding: 1rem;
+
 }
 
 header nav ul li {
-    display: inline;
-    padding: 20px;
+    padding: 10px;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 24px;
+
 
 
 }
 
 header nav ul {
-    text-align: center;
-    color: red;
-    font-size: 24px;
-    padding: 25px;
+    display: flex;
+
+    list-style: none;
+    margin: 0 auto;
 
 
 }
@@ -49,6 +61,8 @@ header nav ul li a {
     text-decoration: none;
     letter-spacing: 2px;
     text-transform: uppercase;
+
+
 }
 
 header nav ul li a:hover {
@@ -81,94 +95,6 @@ header nav ul li a:hover {
 }
 
 /*Specials styles*/
-#specials-content {
 
-    padding: 55px;
-
-}
-
-#specials-content h2 {
-    text-align: center;
-    padding-bottom: 85px;
-    font-size: 44px;
-    font-family: 'Dancing Script', cursive;
-
-}
-
-.column {
-    float: left;
-    max-width: 33.33%;
-    text-align: center;
-}
-
-.container {
-    content: "";
-    display: table;
-    clear: both;
-    text-align: center;
-    margin: 0 auto;
-
-}
-
-.specials-img img {
-    width: 500px;
-    height: 350px;
-    padding: 25px;
-}
 
 /*story-content*/
-
-
-.img-story {
-    background-image: url("https://images.unsplash.com/photo-1525159831892-59d292d558b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
-    width: 50%;
-    height: 500px;
-    float: left;
-}
-
-#story-content h2 {
-    padding-bottom: 45px;
-    font-size: 44px;
-    font-family: 'Dancing Script', cursive;
-}
-
-.story-text {
-    width: 50%;
-    float: right;
-    text-align: center;
-    height: 500px;
-
-}
-
-.story-text p {
-    padding: 0 25px;
-}
-
-/*meet the chef styles*/
-/*Our chef styles*/
-#meet-chef {
-    margin: 95px;
-}
-
-.chef-right {
-    float: right;
-    width: 50%;
-}
-
-.chef-right .chef-photo {
-    width: 650px;
-    height: 450px;
-    margin: 55px;
-}
-
-.chef-left h2 {
-    text-align: center;
-    padding-top: 60px;
-
-}
-
-.chef-left p {
-    font-size: 16px;
-    line-height: 25px;
-    padding: 25px;
-}
