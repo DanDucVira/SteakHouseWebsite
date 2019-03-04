@@ -1,2 +1,2 @@
-# RestoWebsite
-A website for a fake restaurant.
+# SteakHouse Website
+A website for a fake <strong>SteakHouse</strong> restaurant.
