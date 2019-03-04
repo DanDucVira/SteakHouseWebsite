@@ -78,3 +78,39 @@ header nav ul li a:hover {
     color: #d72323;
     text-transform: uppercase;
 }
+
+/*Specials styles*/
+#specials-content {
+    background-color: #eee;
+    padding: 55px;
+
+}
+
+#specials-content h2 {
+    text-align: center;
+    padding-bottom: 85px;
+    font-size: 44px;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.column {
+    float: left;
+    max-width: 33.33%;
+    text-align: center;
+}
+
+.container {
+    content: "";
+    display: table;
+    clear: both;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.specials-img img {
+    width: 500px;
+    height: 350px;
+    padding: 25px;
+}
