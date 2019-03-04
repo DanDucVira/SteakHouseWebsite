@@ -143,3 +143,32 @@ header nav ul li a:hover {
 .story-text p {
     padding: 0 25px;
 }
+
+/*meet the chef styles*/
+/*Our chef styles*/
+#meet-chef {
+    margin: 95px;
+}
+
+.chef-right {
+    float: right;
+    width: 50%;
+}
+
+.chef-right .chef-photo {
+    width: 650px;
+    height: 450px;
+    margin: 55px;
+}
+
+.chef-left h2 {
+    text-align: center;
+    padding-top: 60px;
+
+}
+
+.chef-left p {
+    font-size: 16px;
+    line-height: 25px;
+    padding: 25px;
+}
