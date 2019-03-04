@@ -81,7 +81,7 @@ header nav ul li a:hover {
 
 /*Specials styles*/
 #specials-content {
-    background-color: #eee;
+
     padding: 55px;
 
 }
@@ -113,4 +113,29 @@ header nav ul li a:hover {
     width: 500px;
     height: 350px;
     padding: 25px;
+}
+
+/*story-content*/
+
+
+.img-story {
+    background-image: url("https://images.unsplash.com/photo-1525159831892-59d292d558b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+
+#story-content h2 {
+    padding-bottom: 45px;
+    font-size: 44px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.story-text {
+    width: 50%;
+    float: right;
+    text-align: center;
+    background-color: #eee;
+    height: 500px;
+    padding-top: 25px;
 }
