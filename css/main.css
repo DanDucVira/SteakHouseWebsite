@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Pacifico');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Navigation Styles*/
+/*Header Styles*/
+header {
+
+    height: 750px;
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .3)), url('../img/header-img.jpeg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+header nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+header nav ul li {
+    display: inline;
+    padding: 20px;
+
+
+}
+
+header nav ul {
+    text-align: center;
+    color: red;
+    font-size: 24px;
+    padding: 25px;
+
+
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+header nav ul li a:hover {
+    color: #d72323;
+}
+
+/*heading-styles*/
+
+.container-heading {
+    text-align: center;
+    color: #fff;
+    padding-top: 135px;
+
+}
+
+.container-heading h1 {
+    font-size: 95px;
+    padding-top: 55px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.container-heading p {
+    margin-top: 13%;
+    font-size: 32px;
+}
+
+.heading-color {
+    color: #d72323;
+    text-transform: uppercase;
+}
