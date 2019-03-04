@@ -19,6 +19,7 @@ header {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+
 }
 
 header nav {
@@ -135,7 +136,10 @@ header nav ul li a:hover {
     width: 50%;
     float: right;
     text-align: center;
-    background-color: #eee;
     height: 500px;
-    padding-top: 25px;
+
+}
+
+.story-text p {
+    padding: 0 25px;
 }
