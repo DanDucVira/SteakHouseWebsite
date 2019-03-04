@@ -1,100 +1,263 @@
-@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Roboto');
 
+/*BASE Styles*/
 * {
-    margin: 0px;
-    padding: 0px;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    margin: 0px;
-    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
 }
 
-/*Navigation Styles*/
-/*Header Styles*/
-header {
-
-    height: 750px;
-    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .3)), url('../img/header-img.jpeg');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    width: 100%;
+a {
+    text-decoration: none;
 
 }
 
-header nav {
+p {
+    margin: 0.75rem 0;
+}
+
+/*Utility Styles*/
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-primary {
+    color: #93cb52;
+}
+
+.bg-dark {
+    background: #333;
+    color: #fff;
+}
+
+.bg-primary {
+    background: #93cb53;
+    color: white;
+}
+
+.L-heading {
+    font-size: 2.5rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+
+.M-heading {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+
+.lead {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.py-1 {
+    padding: 1.5rem 0;
+}
+
+.py-2 {
+    padding: 2rem 0;
+}
+
+.py-3 {
+    padding: 3rem 0;
+}
+
+.p-1 {
+    padding: 1.5rem;
+}
+
+.p-2 {
+    padding: 2rem;
+}
+
+.p-3 {
+    padding: 3rem;
+}
+
+.btn {
+    display: inline-block;
+    color: #fff;
+    background-color: #93cb52;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #7ab436;
+}
+
+.btn-dark {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 1rem 3rem;
+}
+
+.list {
+    margin: 0.5rem 0;
+    list-style: none;
+}
+
+.list li {
+    padding: 0.5rem 0;
+    border-bottom: #444 dotted 1px;
+
+}
+
+/*Nav BAr Styles*/
+#navbar {
     display: flex;
-    position: fixed;
+    position: sticky;
     top: 0;
     background-color: #333;
     color: #fff;
     justify-content: space-between;
-    width: 100%;
+    z-index: 1;
+    padding: 1rem;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+}
+
+#navbar ul li a {
+    color: white;
+    padding: 0.75rem;
+    margin: 0 0.25rem;
+}
+
+#navbar ul li a:hover {
+    background-color: #93cb52;
+
+}
+
+/*Showcase Styles*/
+#showcase {
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .2)), url("../img/city-2.jpeg") no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+}
+
+#showcase .showcase-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 2rem;
+
+}
+
+/*Section: what we do*/
+#what {
+    background: #f4f4f4;
+
+}
+
+#what .items {
+    display: flex;
     padding: 1rem;
 
 }
 
-header nav ul li {
-    padding: 10px;
-    align-items: center;
-    margin: 0 auto;
-    font-size: 24px;
-
-
+#what .items .item {
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
 
 }
 
-header nav ul {
+
+#what .items .item i {
+    background: #93cb52;
+    padding: 1rem;
+    border-radius: 50%;
+    color: white;
+}
+
+/*Section: Who we are*/
+
+
+#who {
     display: flex;
 
-    list-style: none;
-    margin: 0 auto;
+}
+
+#who div {
+    flex: 1;
+}
+
+#who .who-img {
+    background: url("../img/people-2.jpeg");
+    background-repeat: no-repeat;
+    background-size: center center;
+    background-size: cover;
+    flex: 1;
+
+
 
 
 }
 
-header nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-
+/*Clients styles*/
+.clients .items {
+    display: flex;
 
 }
 
-header nav ul li a:hover {
-    color: #d72323;
+.clients .items img {
+    display: block;
+    margin: auto;
+    width: 60%;
 }
 
-/*heading-styles*/
-
-.container-heading {
-    text-align: center;
-    color: #fff;
-    padding-top: 135px;
+/*Contact styles**/
+#contact {
+    display: flex;
 
 }
 
-.container-heading h1 {
-    font-size: 95px;
-    padding-top: 55px;
-    font-family: 'Dancing Script', cursive;
+#contact .map,
+#contact .contact-form {
+    flex: 1;
 }
 
-.container-heading p {
-    margin-top: 13%;
-    font-size: 32px;
+#contact .contact-form .form.group {
+    margin: .075rem;
 }
 
-.heading-color {
-    color: #d72323;
-    text-transform: uppercase;
+#contact .contact-form label {
+    display: block;
 }
 
-/*Specials styles*/
+#contact .contact-form input,
+#contact .contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+}
 
-
-/*story-content*/
+/*footer styles*/
+#main-footer {
+    color: white;
+}
