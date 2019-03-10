@@ -36,11 +36,12 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
+
 }
 
 nav ul li {
     display: inline;
-    padding: 20px;
+    padding: 10px;
 
 
 }
@@ -195,6 +196,17 @@ nav ul li a:hover {
     padding: 55px;
 
 }
+
+.dishName {
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;
+
+}
+
+.dishDesc {
+    font-size: 14px;
+}
+
 
 /*img-grid styles*/
 .img-grid {
