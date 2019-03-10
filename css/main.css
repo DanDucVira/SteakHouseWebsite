@@ -183,6 +183,19 @@ nav ul li a:hover {
 }
 
 /*Menu Section styles*/
+#menu-section h2 {
+    text-align: center;
+    padding-bottom: 15px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 44px;
+}
+
+#menu-section {
+    background-color: #F4EFEB;
+    padding: 55px;
+
+}
+
 /*img-grid styles*/
 .img-grid {
     height: 350px;
@@ -263,8 +276,8 @@ nav ul li a:hover {
 
 /*call-to-action styes*/
 #call-to-action {
-    background-color: #262626;
-    height: 100vh;
+    background-color: #333333;
+    height: 100%;
     color: #eee;
 }
 
@@ -313,7 +326,7 @@ nav ul li a:hover {
 }
 
 .form form .btn {
-    background-color: #262626;
+    background-color: #333333;
     border: 1px solid #eee;
     color: white;
     margin: 50px;
@@ -323,4 +336,16 @@ nav ul li a:hover {
 .form form .btn:hover {
     background-color: #d72323;
     border: none;
+}
+
+#main-footer {
+    text-align: center;
+    padding: 5px;
+    background: #262626;
+    color: #eee;
+
+}
+
+#main-footer p {
+    padding-top: 10px;
 }
