@@ -220,3 +220,41 @@ nav ul li a:hover {
     background: url("https://images.pexels.com/photos/920220/pexels-photo-920220.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
     background-size: cover;
 }
+
+/*meet our chef styles*/
+#meet-chef {
+    margin-top: 85px;
+}
+
+#meet-chef:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+#meet-chef .chef-right {
+    background: url(../img/chef.jpg);
+    float: right;
+    width: 50%;
+    height: 60vh;
+    background-size: cover;
+
+}
+
+#meet-chef .chef-left {
+    float: left;
+    width: 50%;
+}
+
+#meet-chef .chef-left h2 {
+    text-align: center;
+    padding-bottom: 25px;
+    font-size: 44px;
+    font-family: 'Dancing Script', cursive;
+}
+
+#meet-chef .chef-left p {
+    font-size: 1rem;
+    line-height: 2rem;
+    padding: 0 45px;
+}
