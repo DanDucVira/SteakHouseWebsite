@@ -16,6 +16,9 @@ body {
 
 }
 
+.clr {
+    clear: both;
+}
 
 
 /*Background Image Styles*/
@@ -104,6 +107,7 @@ nav ul li a:hover {
     float: left;
     width: 33.3%;
     text-align: center;
+    padding-bottom: 95px;
 
 
 
@@ -135,4 +139,43 @@ nav ul li a:hover {
 #specials-content h2 {
     font-size: 35px;
 
+}
+
+/*Our story section styles*/
+#our-story-content {
+    height: 100vh;
+    background-color: #262626;
+    color: #eee;
+}
+
+#our-story-content .img-story {
+    background: url(../img/table-img.jpeg) center;
+    height: 700px;
+    background-repeat: no-repeat;
+    width: 50%;
+    background-size: cover;
+    float: left;
+    min-height: 100%;
+
+
+}
+
+#our-story-content .story-text {
+    width: 50%;
+    float: right;
+    min-height: 100%;
+    padding-left: 25px;
+
+}
+
+#our-story-content .story-text h2 {
+    text-align: center;
+    padding: 25px;
+    font-size: 44px;
+    font-family: 'Dancing Script', cursive;
+}
+
+#our-story-content .story-text p {
+    font-size: 1.5rem;
+    line-height: 2rem
 }
