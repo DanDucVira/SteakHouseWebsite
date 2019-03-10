@@ -91,7 +91,7 @@ nav ul li a:hover {
 }
 
 .container-heading .heading-text {
-    font-size: 3rem;
+    font-size: 2.5rem;
     padding-top: 4rem;
 }
 
@@ -143,14 +143,13 @@ nav ul li a:hover {
 
 /*Our story section styles*/
 #our-story-content {
-    height: 100vh;
-    background-color: #262626;
-    color: #eee;
+    height: 80vh;
+
 }
 
 #our-story-content .img-story {
-    background: url(../img/table-img.jpeg) center;
-    height: 700px;
+    background: url(../img/steakhouse-sotry.jpeg) center;
+    height: 400px;
     background-repeat: no-repeat;
     width: 50%;
     background-size: cover;
@@ -176,6 +175,48 @@ nav ul li a:hover {
 }
 
 #our-story-content .story-text p {
-    font-size: 1.5rem;
-    line-height: 2rem
+    font-size: 1rem;
+    line-height: 2rem;
+    padding: 0 45px;
+
+
+}
+
+/*Menu Section styles*/
+/*img-grid styles*/
+.img-grid {
+    height: 350px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    height: 350px;
+
+}
+
+.img-grid:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.pic-1 {
+    background: url("https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+    background-size: cover;
+}
+
+.pic-2 {
+    background: url("https://images.pexels.com/photos/46239/salmon-dish-food-meal-46239.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+    background-size: cover;
+}
+
+.pic-3 {
+    background: url("https://images.pexels.com/photos/1440119/pexels-photo-1440119.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+    background-size: cover;
+}
+
+.pic-4 {
+    background: url("https://images.pexels.com/photos/920220/pexels-photo-920220.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+    background-size: cover;
 }
