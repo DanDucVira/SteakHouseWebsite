@@ -1,0 +1,27 @@
+#specials-content {
+    float: none;
+    width: 100%;
+}
+
+#specials-content .box-img {
+    float: none;
+    width: 100%;
+
+
+
+}
+
+.box-img img {
+    width: 400px !important;
+    height: 400px;
+
+
+}
+
+.box-img h3 {
+    padding: 25px;
+}
+
+.box-img p {
+    padding-top: 15px;
+}
