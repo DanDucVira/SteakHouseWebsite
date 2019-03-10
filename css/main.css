@@ -224,6 +224,7 @@ nav ul li a:hover {
 /*meet our chef styles*/
 #meet-chef {
     margin-top: 85px;
+    padding-bottom: 65px;
 }
 
 #meet-chef:after {
@@ -257,4 +258,69 @@ nav ul li a:hover {
     font-size: 1rem;
     line-height: 2rem;
     padding: 0 45px;
+
+}
+
+/*call-to-action styes*/
+#call-to-action {
+    background-color: #262626;
+    height: 100vh;
+    color: #eee;
+}
+
+.box-cta {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+    margin-top: 85px;
+
+
+}
+
+.box-cta h4 {
+    padding: 25px;
+}
+
+.form {
+    text-align: center;
+
+
+}
+
+.form p {
+    font-size: 28px;
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+.form form {}
+
+.form form input {
+    margin-bottom: 25px;
+    width: 50%;
+    font-size: 20px;
+}
+
+.form form input {
+    padding: 10px;
+}
+
+.form form textarea {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.form form .btn {
+    background-color: #262626;
+    border: 1px solid #eee;
+    color: white;
+    margin: 50px;
+    padding: 20px;
+}
+
+.form form .btn:hover {
+    background-color: #d72323;
+    border: none;
 }
