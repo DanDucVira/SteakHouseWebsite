@@ -253,7 +253,7 @@ header .heading-text-number {
 /*call to action styles*/
 #call-to-action {
     display: flex;
-    background: #262626;
+    background: #333333;
     color: #eee;
 }
 
@@ -275,3 +275,51 @@ header .heading-text-number {
 
 
 /*Form section*/
+.contact-form {
+    text-align: center;
+    background: #333333;
+    color: #eee;
+    padding-bottom: 55px;
+
+
+}
+
+.contact-form h2 {
+    padding: 25px;
+}
+
+
+.form-group {
+    text-align: center;
+    color: white;
+
+}
+
+.contact-form .form-group label {
+    display: block;
+
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 50%;
+    padding: 0.5rem;
+    background: #333333;
+    border: 1px solid #5C5C5C;
+    margin: 5px;
+
+}
+
+.contact-form .btn {
+    background: #5C5C5C;
+    border: 1px solid #5C5C5C;
+    color: white;
+    padding: 15px 10px;
+}
+
+#main-footer {
+    color: white;
+    background: #262626;
+    text-align: center;
+    padding: 25px;
+}
