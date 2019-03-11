@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
 
+
 * {
     margin: 0px;
     padding: 0px;
@@ -31,5 +32,116 @@ a {
     text-align: center;
 }
 
+
+
 /*Navigation Styles*/
-.main-nav {}
+.main-nav {
+    display: flex;
+    position: fixed;
+    top: 0;
+    justify-content: space-between;
+    padding: 1.5rem;
+    margin: 0 auto;
+    width: 100%;
+    color: #eee;
+
+}
+
+.main-nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0 auto;
+    font-size: 1.5rem;
+}
+
+
+
+.main-nav ul li a {
+    color: #eee;
+    padding: 0.75rem;
+    text-transform: uppercase;
+}
+
+.main-nav ul li a:hover {
+    color: #cf3030;
+
+}
+
+header {
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .2)), url(../img/header-img.jpeg) no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+}
+
+header .container-heading {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+    padding: 0 2rem;
+}
+
+header .Lead-heading {
+    font-size: 8rem;
+    color: #cf3030;
+    font-weight: bolder;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+header .heading-text {
+    font-size: 3rem;
+    padding-bottom: 55px;
+}
+
+header .heading-text-number {
+    font-size: 2rem;
+
+
+
+
+
+}
+
+/*Speacials section styles*/
+#specials-section {
+    text-align: center;
+
+
+}
+
+#specials-section h2 {
+    font-size: 44px;
+    font-family: 'Dancing Script', cursive;
+    padding: 50px 50px;
+
+
+
+
+
+
+
+}
+
+.flex-container {
+    display: flex;
+
+}
+
+.flex-container .box-img {
+    flex: 1;
+    padding: 1rem;
+    text-align: center;
+
+}
+
+.flex-container .box-img h3 {
+    padding-bottom: 25px;
+}
+
+.flex-container .box-img img {
+    width: 500px;
+    height: 350px;
+
+}
