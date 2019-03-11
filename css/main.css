@@ -149,7 +149,8 @@ header .heading-text-number {
 /*Our story section*/
 #our-story-content {
     display: flex;
-    height: 80vh
+    height: 80vh;
+    padding-top: 85px;
 }
 
 #our-story-content .img-story {
@@ -168,6 +169,8 @@ header .heading-text-number {
 
 #our-story-content .story-text p {
     padding: 3rem;
+    line-height: 1.8rem;
+    word-spacing: 5px;
 }
 
 #our-story-content .story-text h2 {
@@ -175,5 +178,40 @@ header .heading-text-number {
 
     font-family: 'Dancing Script', cursive;
     text-align: center;
-    padding-top: 5rem;
+    padding-top: 3rem;
+}
+
+/*img-grid styles*/
+.img-grid {
+    display: flex;
+    padding-top: 55px;
+}
+
+.pic-1 {
+    background: url("https://images.pexels.com/photos/1440119/pexels-photo-1440119.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    height: 350px;
+    width: 25%;
+    background-size: cover;
+
+}
+
+.pic-2 {
+    background: url("https://images.pexels.com/photos/699953/pexels-photo-699953.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    height: 350px;
+    width: 25%;
+    background-size: cover;
+}
+
+.pic-3 {
+    background: url("https://images.pexels.com/photos/955137/pexels-photo-955137.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    height: 350px;
+    width: 25%;
+    background-size: cover;
+}
+
+.pic-4 {
+    background: url("https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    height: 350px;
+    width: 25%;
+    background-size: cover;
 }
