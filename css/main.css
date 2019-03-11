@@ -249,3 +249,29 @@ header .heading-text-number {
     text-align: center;
     word-spacing: 5px;
 }
+
+/*call to action styles*/
+#call-to-action {
+    display: flex;
+    background: #262626;
+    color: #eee;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    flex: 1;
+    padding: 85px;
+
+
+}
+
+.cta-container .box-cta {
+    width: 33.3%;
+}
+
+
+
+/*Form section*/
