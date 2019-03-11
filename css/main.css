@@ -145,3 +145,35 @@ header .heading-text-number {
     height: 350px;
 
 }
+
+/*Our story section*/
+#our-story-content {
+    display: flex;
+    height: 80vh
+}
+
+#our-story-content .img-story {
+    background: url("../img/steakhouse-sotry.jpeg");
+    background-repeat: no-repeat;
+    background-size: center center;
+    background-size: cover;
+    flex: 1;
+}
+
+#our-story-content .story-text {
+    flex: 1;
+    text-align: left;
+    overflow: hidden;
+}
+
+#our-story-content .story-text p {
+    padding: 3rem;
+}
+
+#our-story-content .story-text h2 {
+    font-size: 3.5rem;
+
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    padding-top: 5rem;
+}
