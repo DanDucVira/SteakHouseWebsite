@@ -64,7 +64,7 @@ a {
 
 /*header styles*/
 .container-heading {
-    background: url(/img/header-img.jpeg) center/cover;
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .3)), url(/img/header-img.jpeg) center/cover;
     background-size: center;
     background-repeat: no-repeat;
     height: 100vh;
@@ -96,6 +96,48 @@ a {
     padding-top: 258px;
 }
 
+/*Specials sytles*/
+#specials-section h2 {
+    text-align: center;
+    padding-top: 25px;
+    font-size: 2.2rem;
+}
+
+#specials-section .flex-container {
+    display: flex;
+    text-align: center;
+}
+
+#specials-section h3 {
+    padding-top: 45px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.box-img img {
+    width: 440px;
+    height: 300px;
+}
+
+/*story styles*/
+#our-story-content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.img-story {
+
+    height: 600px;
+
+}
+
+#our-story-content story-text {}
+
+/*widescreen styles*/
+
+
+/*mobile styles*/
 @media only screen and (max-width: 768px) {
 
     .Navbar-Items,
@@ -137,5 +179,14 @@ a {
         cursor: pointer;
 
 
+    }
+
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-story {
+        width: 100%;
     }
 }
