@@ -62,6 +62,40 @@ a {
     display: none;
 }
 
+/*header styles*/
+.container-heading {
+    background: url(/img/header-img.jpeg) center/cover;
+    background-size: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-align: center;
+    color: white;
+    z-index: 1;
+
+}
+
+.header-text {
+    position: relative;
+    top: 40%;
+}
+
+.header-text .lead-heading {
+    font-size: 3.2rem;
+    color: red;
+    font-weight: bolder;
+}
+
+.header-text .heading-text-p {
+    font-size: 1.5rem;
+    padding-top: 15px;
+
+}
+
+.header-text .heading-text-number {
+    font-size: 1.5rem;
+    padding-top: 258px;
+}
+
 @media only screen and (max-width: 768px) {
 
     .Navbar-Items,
