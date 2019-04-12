@@ -307,7 +307,8 @@ a {
 }
 
 .box-cta {
-    width: 25%;
+    margin: 35px;
+
 
 }
 
@@ -465,7 +466,11 @@ footer {
     }
 
     .cta-container {
+        display: flex;
         flex-direction: column;
+
+
+
     }
 
     .contact-form {
