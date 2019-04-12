@@ -317,6 +317,35 @@ a {
     padding-bottom: 15px;
 }
 
+.contact-form {
+    background: #333333;
+    color: white;
+}
+
+.contact-form h2 {
+    padding: 25px;
+}
+
+.contact-form input {
+    width: 50%;
+    padding: 10px;
+    margin: 5px;
+}
+
+.contact-form textarea {
+    width: 50%;
+    height: 150px;
+}
+
+.contact-form .btn {
+    background: red;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 25px;
+}
+
 footer {
     background: #262626;
     color: white;
@@ -434,6 +463,136 @@ footer {
     .img-chef {
         height: 500px;
         width: 450px;
+    }
+
+    .cta-container {
+        flex-direction: column;
+    }
+
+    .contact-form {
+        text-align: center;
+    }
+
+    .contact-form input {
+        width: 80%;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .contact-form textarea {
+        width: 80%;
+        height: 150px;
+    }
+
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .Navbar-Items,
+    .Navbar {
+        flex-direction: column;
+        padding: 55px 20px;
+        z-index: 999;
+
+
+
+
+
+    }
+
+    .Navbar-Items {
+        display: none;
+        margin: 0 auto;
+        text-align: center;
+
+
+
+
+    }
+
+    .Navbar-Link {
+        padding: 25px;
+    }
+
+
+    .Navbar-ToggleShow {
+        display: flex;
+
+    }
+
+    .Navbar-Link-toggle {
+        align-self: flex-end;
+        display: initial;
+        position: absolute;
+        cursor: pointer;
+
+
+    }
+
+    .header-text .lead-heading {
+        font-size: 5.2rem;
+        color: red;
+        font-weight: bolder;
+        font-family: 'Dancing Script', cursive;
+    }
+
+    .header-text .heading-text-p {
+        font-size: 1.5rem;
+        padding-top: 95px;
+
+    }
+
+    .header-text .heading-text-number {
+        font-size: 1.5rem;
+        padding-top: 258px;
+    }
+
+    .box-img img {
+        width: 100%;
+        height: 450px;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #our-story-content {
+        flex-direction: column;
+    }
+
+    .img-story {
+        width: 100%;
+    }
+
+    .img-grid {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .img-grid img {
+        width: 100%;
+        height: 550px;
+    }
+
+    #meet-chef {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .chef-text h2 {
+        padding-bottom: 25px;
+    }
+
+    .chef-text {
+        padding-bottom: 25px;
+    }
+
+    .img-chef {
+        height: 500px;
+        width: 100%;
     }
 
     .cta-container {
