@@ -302,14 +302,12 @@ a {
     display: flex;
     text-align: center;
     justify-content: space-between;
-    align-items: center;
     margin: 0 auto;
 
 }
 
 .box-cta {
-    margin: 55px;
-    padding: 0 85px;
+    width: 25%;
 
 }
 
@@ -320,6 +318,7 @@ a {
 .contact-form {
     background: #333333;
     color: white;
+    text-align: center;
 }
 
 .contact-form h2 {
