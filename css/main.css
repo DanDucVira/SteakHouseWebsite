@@ -86,6 +86,7 @@ a {
     font-size: 3.2rem;
     color: red;
     font-weight: bolder;
+    font-family: 'Dancing Script', cursive;
 }
 
 .header-text .heading-text-p {
@@ -100,15 +101,27 @@ a {
 }
 
 /*Specials sytles*/
+#specials-section {
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 55px;
+}
+
 #specials-section h2 {
     text-align: center;
     padding-top: 25px;
     font-size: 2.2rem;
+    font-family: 'Dancing Script', cursive;
+}
+
+#specials-section p {
+    padding-top: 25px;
 }
 
 #specials-section .flex-container {
     display: flex;
     text-align: center;
+
 }
 
 #specials-section h3 {
@@ -118,8 +131,8 @@ a {
 }
 
 .box-img img {
-    width: 440px;
-    height: 300px;
+    width: 340px;
+    height: 200px;
 }
 
 /*story styles*/
@@ -127,6 +140,18 @@ a {
     display: flex;
     flex-direction: row;
     width: 100%;
+    background: #F6F6F6;
+}
+
+#our-story-content .story-text {
+    margin: 55px 25px;
+    text-align: center;
+}
+
+#our-story-content .story-text h2 {
+    padding-bottom: 25px;
+    font-size: 2.5rem;
+    font-family: 'Dancing Script', cursive;
 }
 
 .img-story {
@@ -136,17 +161,122 @@ a {
 }
 
 /*menu styles*/
-.menu-container {
+#menu-section {
+    text-align: center;
 
+    margin: 85px 0;
+}
+
+#menu-section h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+}
+
+.main-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 0;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.menu-heading {
+    background-color: #262626;
+    opacity: .9;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    font-size: 2rem;
+    color: #e8e8e8;
+    box-shadow: 1px 1px 1px #595959;
+}
+
+
+.menu-display {
+    width: 100%;
+    color: #595959;
+    display: flex;
+    overflow-x: auto;
+}
+
+.small-info {
+    font-size: .9em;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 40%;
+    margin: 1.33%;
+}
+
+.menu-item .item-info {
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 0, 8em;
+    border-bottom: 2px solid #a8a8a8;
+    padding-bottom: 6px;
+    flex-direction: column;
     text-align: center;
 }
 
-.menu-left {
-    display: inline;
+
+
+.menu-item .item-info .item-name {
+    text-transform: uppercase;
+    font-weight: 700;
+    text-transform: italic;
+    margin-bottom: 4px;
+    letter-spacing: .2px;
 
 }
 
-.menu-right {}
+.menu-item .item-info .item-description {
+    font-size: .9em;
+    color: #595959;
+}
+
+
+
+.steak-price p:nth-child(1),
+.steak-price p:nth-child(2),
+.steak-price p:nth-child(3) {
+    font-weight: 500;
+    letter-spacing: .2px;
+    font-size: .8em;
+    font-style: italic;
+    margin-right: 20px;
+}
+
+/*image grid styles*/
+.img-grid {
+    display: flex;
+}
+
+.img-grid img {
+    width: 450px;
+    height: 350px;
+}
+
+/*meet the chef styles*/
+#meet-chef {
+    display: flex;
+}
+
+.chef-text {
+    text-align: center;
+    padding-top: 54px;
+}
+
+.img-chef {
+    height: 500px;
+}
 
 /*widescreen styles*/
 
@@ -195,12 +325,32 @@ a {
 
     }
 
+    .box-img img {
+        width: 100%;
+        height: 350px;
+    }
+
     .flex-container {
         display: flex;
         flex-direction: column;
     }
 
+    #our-story-content {
+        flex-direction: column;
+    }
+
     .img-story {
         width: 100%;
+    }
+
+    .img-grid {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .img-chef {
+        height: 500px;
+        width: 450px;
     }
 }
