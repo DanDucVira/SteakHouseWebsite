@@ -63,6 +63,9 @@ a {
     margin: auto;
 }
 
+.Navbar-Items ul {
+    display: flex;
+}
 
 
 .Navbar-Link-toggle {
@@ -397,6 +400,11 @@ footer {
 
     }
 
+    .Navbar-Items ul {
+        display: flex;
+        flex-direction: column;
+    }
+
     .Navbar-Link {
         padding: 25px;
     }
@@ -491,24 +499,34 @@ footer {
 
     #call-to-action {
 
-        padding: 15px;
+        padding: 0px;
         text-align: center;
+        margin: 0 auto;
+
+
+
+
 
     }
 
     .cta-container {
-        padding: 0px;
-
-
-
-
-
-    }
-
-    .cta-container .box-cta {
+        display: flex;
+        flex-direction: column;
         margin: 0 auto;
+        text-align: center;
+
+
+
 
     }
+
+    .box-cta {
+        margin: 0 auto;
+        text-align: center;
+
+    }
+
+    .box-cta .fas {}
 
     .contact-form {
         text-align: center;
